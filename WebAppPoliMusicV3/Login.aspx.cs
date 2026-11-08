@@ -18,7 +18,7 @@ namespace WebAppPoliMusicV3
             if (!Page.IsPostBack)
             {
 #if DEBUG
-                txtLogin.Text = "nombre.apellidoestudiante";
+                txtLogin.Text = "Danna.Morales";
                 txtPassword.Text = "12345678";
                 txtPassword.Attributes.Add("value", txtPassword.Text);
                 txtPassword.TextMode = TextBoxMode.Password;
